@@ -1,4 +1,4 @@
 echo 'hello from Pipeline script in git'
-node ('AngularLearning Jenkins Node') {
- echo 'hello from inside AngularLearning Jenkins Node'
+node ('master') {
+ echo 'hello from inside master Node'
 }
